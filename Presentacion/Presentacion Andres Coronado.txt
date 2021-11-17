@@ -1,0 +1,5 @@
+Andres Felipe Coronado
+
+Soy de Ocana, Norte de Santander, me gustaria afianzar mis conocimientos de programacion
+en node.js, react.js, mongoDB y express. Al mismo tiempodesarrollar mis habilidades de 
+trabajo en equipo.
