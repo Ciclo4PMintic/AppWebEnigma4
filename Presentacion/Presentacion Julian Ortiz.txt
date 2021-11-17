@@ -1,0 +1,4 @@
+Julian Andres Ortiz V
+
+Soy de Bogota, me gustaria aprender mas sobre front end y backend y adquirir mas conocimientos
+en node.js, react.js, mongoDB y metodologias agiles.
