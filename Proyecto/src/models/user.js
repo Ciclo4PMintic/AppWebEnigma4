@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
+const Rol = require("./rol");
 const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
   name: {
     type: String,
-    require: false,
-    default: "N.N.",
+    require: true,
   },
   lastName: {
     type: String,
@@ -17,6 +17,22 @@ const userSchema = new Schema({
   },
   password: {
     type: String,
+    required: true,
+  },
+  date: {
+    type: String,
+    default: Date.now(),
+  },
+  identity: {
+    type: String,
+    required: false,
+  },
+  rol: {
+    type: Rol,
+    required: true,
+  },
+  estado: {
+    type: Rol.String,
     required: true,
   },
 });
