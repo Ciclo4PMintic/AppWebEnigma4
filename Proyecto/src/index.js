@@ -11,9 +11,7 @@ app.use(bodyParser.json());
 app.use(routes);
 
 mongoose
-  .connect(
-    "mongodb+srv://web4:minticweb@cluster0.eaqta.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-  )
+  .connect("mongodb+srv://enigmaroot:enigma00@enigma00.jv7u1.mongodb.net/test")
   .then(() => {
     console.log("Conexion exitosa DB");
     app.listen(5000, () => {
